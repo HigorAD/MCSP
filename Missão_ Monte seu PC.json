@@ -552,7 +552,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "MemoriaRam",
+          "name": "MemoriaRAM",
           "persistentUuid": "bcf52f3d-0bf4-4101-ab58-c42d1479f134",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -661,7 +661,7 @@
             "objectName": "Processador"
           },
           {
-            "objectName": "MemoriaRam"
+            "objectName": "MemoriaRAM"
           },
           {
             "objectName": "SSD"
@@ -779,8 +779,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Vit_243ria",
-      "name": "Vitória",
+      "mangledName": "Vitoria",
+      "name": "Vitoria",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1108,8 +1108,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Gameover",
-      "name": "Gameover",
+      "mangledName": "GameOver",
+      "name": "GameOver",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1196,7 +1196,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TextoMensagemgameOver",
+          "name": "TextoMensagemGameOver",
           "persistentUuid": "9d77cf8e-2e32-47ef-a1c5-0be2d69a1b4b",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -1322,7 +1322,7 @@
             "objectName": "TextoGameOver"
           },
           {
-            "objectName": "TextoMensagemgameOver"
+            "objectName": "TextoMensagemGameOver"
           },
           {
             "objectName": "ComputadorIncompleto"

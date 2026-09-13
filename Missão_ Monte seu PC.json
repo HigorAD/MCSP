@@ -278,6 +278,22 @@
         "name": "assets/opcao_1_vetorial/robo2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Parede.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Parede",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parede2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Parede2.png\"}",
+        "name": "Parede2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -670,6 +686,14 @@
               "name": "Fonte"
             }
           ]
+        },
+        {
+          "name": "Paredes",
+          "objects": [
+            {
+              "name": "Parede"
+            }
+          ]
         }
       ],
       "variables": [
@@ -838,6 +862,90 @@
           "x": 397,
           "y": 251,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoContador",
+          "persistentUuid": "c444085f-ca55-4f47-bc63-daab3dca0c31",
+          "width": 0,
+          "x": 943,
+          "y": 186,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Parede",
+          "persistentUuid": "deb30f35-8a81-4283-b25c-5b5b5dabbba4",
+          "width": 1028,
+          "x": 135,
+          "y": 586,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Parede",
+          "persistentUuid": "654382cd-f30c-4024-aef6-55cf0b43338b",
+          "width": 38,
+          "x": 1163,
+          "y": 136,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Parede",
+          "persistentUuid": "e065bcec-c8a0-4271-97c1-edf365078018",
+          "width": 1099,
+          "x": 111,
+          "y": 91,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Parede",
+          "persistentUuid": "3f37772c-13bd-489a-8976-ded1f0c74cd2",
+          "width": 38,
+          "x": 107,
+          "y": 137,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1461,6 +1569,67 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Parede",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Parede",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Parede2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 30
+                          },
+                          {
+                            "x": 0,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1495,6 +1664,9 @@
           },
           {
             "objectName": "TextoContador"
+          },
+          {
+            "objectName": "Parede"
           }
         ]
       },
@@ -1550,6 +1722,35 @@
                 "Text",
                 "=",
                 "\"Componentes: \" + ToString(Variable(ItensColetados)) + \"/6\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Jogador",
+                "Parede",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Jogador",
+                "Parede",
+                ""
               ]
             }
           ]

@@ -246,6 +246,38 @@
         "name": "assets/opcao_1_vetorial/placa_video",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/memoria_ram3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/memoria_ram2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/processador3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/processador2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/jogador3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/jogador2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/robo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/robo2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -615,10 +647,35 @@
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Componentes",
+          "objects": [
+            {
+              "name": "PlacaMae"
+            },
+            {
+              "name": "Processador"
+            },
+            {
+              "name": "MemoriaRam"
+            },
+            {
+              "name": "PlacaVideo"
+            },
+            {
+              "name": "SSD"
+            },
+            {
+              "name": "Fonte"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "ItensColetados",
+          "persistentUuid": "b67f5e2f-be07-40b3-ba91-569d0ec34dde",
           "type": "number",
           "value": 0
         }
@@ -650,8 +707,8 @@
           "name": "Jogador",
           "persistentUuid": "778aad41-30b9-43e9-a293-5907cdc17bd9",
           "width": 0,
-          "x": 322,
-          "y": 162,
+          "x": 539,
+          "y": 429,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -666,8 +723,8 @@
           "name": "MemoriaRam",
           "persistentUuid": "02c588e7-01a5-4062-86b7-9528dcc988e7",
           "width": 0,
-          "x": 390,
-          "y": 257,
+          "x": 246,
+          "y": 178,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -698,8 +755,8 @@
           "name": "Robo",
           "persistentUuid": "1fe6b1a8-813c-4096-a8c1-8f2b7ff8aa2c",
           "width": 0,
-          "x": 846,
-          "y": 456,
+          "x": 1026,
+          "y": 143,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -714,8 +771,8 @@
           "name": "PlacaMae",
           "persistentUuid": "eb446cf0-ad4d-44b8-842e-304025b55193",
           "width": 0,
-          "x": 489,
-          "y": 332,
+          "x": 236,
+          "y": 407,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -730,8 +787,8 @@
           "name": "Fonte",
           "persistentUuid": "4ec041f0-7fc5-4c89-9170-8a7c15d3ead9",
           "width": 0,
-          "x": 637,
-          "y": 353,
+          "x": 639,
+          "y": 257,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -746,8 +803,8 @@
           "name": "PlacaVideo",
           "persistentUuid": "de47d2b7-0242-4209-94da-60113afc31cf",
           "width": 0,
-          "x": 850,
-          "y": 243,
+          "x": 934,
+          "y": 218,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -778,8 +835,8 @@
           "name": "Processador",
           "persistentUuid": "ea232da0-33b6-4a33-b850-a56fcd0abe26",
           "width": 0,
-          "x": 639,
-          "y": 272,
+          "x": 397,
+          "y": 251,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -857,7 +914,24 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "name": "TopDownMovement",
+              "rotateObject": true,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "useLegacyTurnBack": false,
+              "viewpoint": "TopDown"
+            }
+          ],
           "animations": [
             {
               "name": "assets/opcao_1_vetorial/jogador",
@@ -870,7 +944,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/opcao_1_vetorial/jogador",
+                      "image": "assets/opcao_1_vetorial/jogador2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -886,20 +960,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 34,
-                            "y": 30
+                            "x": 42,
+                            "y": 37
                           },
                           {
-                            "x": 101,
-                            "y": 30
+                            "x": 126,
+                            "y": 37
                           },
                           {
-                            "x": 101,
-                            "y": 96
+                            "x": 126,
+                            "y": 120
                           },
                           {
-                            "x": 34,
-                            "y": 96
+                            "x": 42,
+                            "y": 120
                           }
                         ]
                       ]
@@ -932,7 +1006,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/opcao_1_vetorial/robo",
+                      "image": "assets/opcao_1_vetorial/robo2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -948,20 +1022,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 26,
-                            "y": 29
+                            "x": 32,
+                            "y": 36
                           },
                           {
-                            "x": 97,
-                            "y": 29
+                            "x": 121,
+                            "y": 36
                           },
                           {
-                            "x": 97,
-                            "y": 91
+                            "x": 121,
+                            "y": 114
                           },
                           {
-                            "x": 26,
-                            "y": 91
+                            "x": 32,
+                            "y": 114
                           }
                         ]
                       ]
@@ -1056,7 +1130,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/opcao_1_vetorial/processador",
+                      "image": "assets/opcao_1_vetorial/processador2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1072,20 +1146,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 18,
-                            "y": 22
+                            "x": 20,
+                            "y": 25
                           },
                           {
-                            "x": 56,
-                            "y": 22
+                            "x": 63,
+                            "y": 25
                           },
                           {
-                            "x": 56,
-                            "y": 57
+                            "x": 63,
+                            "y": 64
                           },
                           {
-                            "x": 18,
-                            "y": 57
+                            "x": 20,
+                            "y": 64
                           }
                         ]
                       ]
@@ -1118,7 +1192,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/opcao_1_vetorial/memoria_ram",
+                      "image": "assets/opcao_1_vetorial/memoria_ram2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1134,20 +1208,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
-                            "y": 29
+                            "x": 14,
+                            "y": 33
                           },
                           {
-                            "x": 56,
-                            "y": 29
+                            "x": 64,
+                            "y": 33
                           },
                           {
-                            "x": 56,
-                            "y": 46
+                            "x": 64,
+                            "y": 53
                           },
                           {
-                            "x": 12,
-                            "y": 46
+                            "x": 14,
+                            "y": 53
                           }
                         ]
                       ]
@@ -1424,7 +1498,63 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Jogador",
+                "Componentes",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ItensColetados",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Componentes",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextoContador",
+                "Text",
+                "=",
+                "\"Componentes: \" + ToString(Variable(ItensColetados)) + \"/6\""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -1520,6 +1650,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },

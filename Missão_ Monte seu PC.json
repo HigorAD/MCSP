@@ -110,6 +110,142 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
           "name": "mononoki-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/opcao_1_vetorial/fundo_laboratorio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/fundo_laboratorio.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/jogador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/jogador.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/robo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/robo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/placa_mae.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/placa_mae.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/processador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/processador.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/memoria_ram.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/memoria_ram.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/ssd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/ssd.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/placa_video.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/placa_video.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/fonte.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/fonte.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/memoria_ram2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/memoria_ram",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/jogador2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/jogador",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/robo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/robo",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/placa_mae2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/placa_mae",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/ssd2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/ssd",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/fonte2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/fonte",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/processador2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/processador",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/placa_video2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/opcao_1_vetorial/placa_video",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -474,7 +610,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445202,
+        "zoomFactor": 0.4789341884535254,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -487,7 +623,169 @@
           "value": 0
         }
       ],
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 717,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoLaboratorio",
+          "persistentUuid": "8edcc54c-ba46-4641-a42a-74bb4fb4bbe9",
+          "width": 1276,
+          "x": -1,
+          "y": 3,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Jogador",
+          "persistentUuid": "778aad41-30b9-43e9-a293-5907cdc17bd9",
+          "width": 0,
+          "x": 322,
+          "y": 162,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MemoriaRam",
+          "persistentUuid": "02c588e7-01a5-4062-86b7-9528dcc988e7",
+          "width": 0,
+          "x": 390,
+          "y": 257,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SSD",
+          "persistentUuid": "8d986ec6-76f2-4cb3-9644-d53f16752217",
+          "width": 0,
+          "x": 12,
+          "y": 253,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Robo",
+          "persistentUuid": "1fe6b1a8-813c-4096-a8c1-8f2b7ff8aa2c",
+          "width": 0,
+          "x": 846,
+          "y": 456,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlacaMae",
+          "persistentUuid": "eb446cf0-ad4d-44b8-842e-304025b55193",
+          "width": 0,
+          "x": 489,
+          "y": 332,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fonte",
+          "persistentUuid": "4ec041f0-7fc5-4c89-9170-8a7c15d3ead9",
+          "width": 0,
+          "x": 637,
+          "y": 353,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlacaVideo",
+          "persistentUuid": "de47d2b7-0242-4209-94da-60113afc31cf",
+          "width": 0,
+          "x": 850,
+          "y": 243,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SSD",
+          "persistentUuid": "ab1d566d-358b-4c55-bfa9-8790b9e50929",
+          "width": 0,
+          "x": 908,
+          "y": 405,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Processador",
+          "persistentUuid": "ea232da0-33b6-4a33-b850-a56fcd0abe26",
+          "width": 0,
+          "x": 639,
+          "y": 272,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
@@ -499,7 +797,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/fundo_laboratorio.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -511,7 +858,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/jogador",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/jogador",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 101,
+                            "y": 30
+                          },
+                          {
+                            "x": 101,
+                            "y": 96
+                          },
+                          {
+                            "x": 34,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -523,7 +920,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/robo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/robo",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 26,
+                            "y": 29
+                          },
+                          {
+                            "x": 97,
+                            "y": 29
+                          },
+                          {
+                            "x": 97,
+                            "y": 91
+                          },
+                          {
+                            "x": 26,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -535,7 +982,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/placa_mae",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/placa_mae",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 65,
+                            "y": 15
+                          },
+                          {
+                            "x": 65,
+                            "y": 62
+                          },
+                          {
+                            "x": 16,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -547,19 +1044,119 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/processador",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/processador",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 22
+                          },
+                          {
+                            "x": 56,
+                            "y": 22
+                          },
+                          {
+                            "x": 56,
+                            "y": 57
+                          },
+                          {
+                            "x": 18,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "MemoriaRAM",
+          "name": "MemoriaRam",
           "persistentUuid": "bcf52f3d-0bf4-4101-ab58-c42d1479f134",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/memoria_ram",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/memoria_ram",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 29
+                          },
+                          {
+                            "x": 56,
+                            "y": 29
+                          },
+                          {
+                            "x": 56,
+                            "y": 46
+                          },
+                          {
+                            "x": 12,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -571,7 +1168,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/ssd",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/ssd",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 22
+                          },
+                          {
+                            "x": 63,
+                            "y": 22
+                          },
+                          {
+                            "x": 63,
+                            "y": 55
+                          },
+                          {
+                            "x": 17,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -583,7 +1230,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/placa_video",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/placa_video",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 24
+                          },
+                          {
+                            "x": 67,
+                            "y": 24
+                          },
+                          {
+                            "x": 67,
+                            "y": 58
+                          },
+                          {
+                            "x": 11,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -595,7 +1292,57 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "assets/opcao_1_vetorial/fonte",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/fonte",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 15
+                          },
+                          {
+                            "x": 68,
+                            "y": 15
+                          },
+                          {
+                            "x": 68,
+                            "y": 57
+                          },
+                          {
+                            "x": 14,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -661,7 +1408,7 @@
             "objectName": "Processador"
           },
           {
-            "objectName": "MemoriaRAM"
+            "objectName": "MemoriaRam"
           },
           {
             "objectName": "SSD"
@@ -779,8 +1526,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Vitoria",
-      "name": "Vitoria",
+      "mangledName": "Vit_243ria",
+      "name": "Vitória",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1108,8 +1855,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "GameOver",
-      "name": "GameOver",
+      "mangledName": "Gameover",
+      "name": "Gameover",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1196,7 +1943,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "TextoMensagemGameOver",
+          "name": "TextoMensagemgameOver",
           "persistentUuid": "9d77cf8e-2e32-47ef-a1c5-0be2d69a1b4b",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -1322,7 +2069,7 @@
             "objectName": "TextoGameOver"
           },
           {
-            "objectName": "TextoMensagemGameOver"
+            "objectName": "TextoMensagemgameOver"
           },
           {
             "objectName": "ComputadorIncompleto"

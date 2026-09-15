@@ -302,6 +302,14 @@
         "name": "assets/opcao_1_vetorial/computador_montado.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/opcao_1_vetorial/computador_incompleto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/opcao_1_vetorial/computador_incompleto.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2044,6 +2052,35 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Jogador",
+                "Robo",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Gameover\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2729,7 +2766,104 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoGameOver",
+          "persistentUuid": "abbea9c3-3841-4be2-b9d6-f276080972c8",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ComputadorIncompleto",
+          "persistentUuid": "e8787120-9abd-4c58-ad13-fc00bc454e2c",
+          "width": 0,
+          "x": 395,
+          "y": 126,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoGameOver",
+          "persistentUuid": "0a67e419-bec0-4c55-8e28-77b4104c67c1",
+          "width": 0,
+          "x": 508,
+          "y": 152,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotaoTentarNovamente",
+          "persistentUuid": "1576fcae-af1b-4400-aa3b-b8c4af894070",
+          "width": 0,
+          "x": 905,
+          "y": 285,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoBotaoTentarNovamente",
+          "persistentUuid": "a375f16c-0e81-4e64-a53e-e2b91e9b85a5",
+          "width": 0,
+          "x": 952,
+          "y": 299,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoMensagemgameOver",
+          "persistentUuid": "413202bf-8057-4ac6-82db-7ab4406a3cb1",
+          "width": 0,
+          "x": 415,
+          "y": 529,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
@@ -2741,11 +2875,60 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/fundo_laboratorio.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "TextoGameOver",
           "persistentUuid": "d1f4a035-f66b-4f6a-bcbd-33ad79b4d597",
@@ -2755,17 +2938,17 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Text",
+          "string": "GAME OVER!",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 45,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 28,
+            "g": 231,
+            "r": 248
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
             "italic": false,
@@ -2778,13 +2961,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Text",
+            "text": "GAME OVER!",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 45,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "248;231;28"
           }
         },
         {
@@ -2799,14 +2982,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Text",
+          "string": "Não foi possível montar o computador!",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 28,
+            "g": 231,
+            "r": 248
           },
           "content": {
             "bold": false,
@@ -2822,13 +3005,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Text",
+            "text": "Não foi possível montar o computador!",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "248;231;28"
           }
         },
         {
@@ -2841,7 +3024,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/opcao_1_vetorial/computador_incompleto.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 106,
+                            "y": 89
+                          },
+                          {
+                            "x": 422,
+                            "y": 89
+                          },
+                          {
+                            "x": 422,
+                            "y": 400
+                          },
+                          {
+                            "x": 106,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
@@ -2859,7 +3091,7 @@
             "BottomPadding": 24,
             "TopPadding": 24,
             "HoveredFadeOutDuration": 0.25,
-            "LabelText": "Button"
+            "LabelText": ""
           }
         },
         {
@@ -2874,14 +3106,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Text",
+          "string": "Reiniciar",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 25,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 28,
+            "g": 231,
+            "r": 248
           },
           "content": {
             "bold": false,
@@ -2897,13 +3129,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Text",
+            "text": "Reiniciar",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 25,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "248;231;28"
           }
         }
       ],
@@ -2930,7 +3162,34 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BotaoTentarNovamente",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Jogo\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
